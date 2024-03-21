@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: '/VUE-weather-forecast/',
+	base: '/VUE-weather-forecast/dist/',
   plugins: [
     vue(),
   ],
