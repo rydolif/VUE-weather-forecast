@@ -53,7 +53,7 @@
 			},
 			thisDate() {
 				const date = new Date();
-				// return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', weekday: 'long' })
+				return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', weekday: 'long' })
 			},
 			backgroundVideo() {
 				if (this.info && this.info.weather && this.info.weather[0]) {
