@@ -224,7 +224,7 @@
 				return Object.values(grouped); // Повертаємо масив масивів, де кожен масив містить прогноз погоди для певного дня
 			},
 			searchCities() {
-				axios.get('http://api.geonames.org/searchJSON', {
+				axios.get('https://api.geonames.org/searchJSON', {
 						params: {
 								name_startsWith: this.searchQuery,
 								maxRows: 5,
